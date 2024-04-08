@@ -46,7 +46,7 @@ h5 {
 h6 {
     font-size: 28px;
     line-height: 24px;
-    margin: 0
+    margin: 0;
 }
 
 p {
@@ -74,7 +74,7 @@ p {
 
 #container {
     margin: 0 auto;
-    width: 600px;
+    max-width: 600px;
 }
 
 header {
@@ -108,13 +108,15 @@ ul {
 
 #order-container {
     display: none;
-    padding: 0 45px;   
+    padding: 0 45px;
 }
 
 #order-item-list {
-    padding: 0 0 25px 0;
+    padding-bottom: 25px;
     border-bottom: 2px solid #393333;
     margin: 0;
+    padding-left: 0px;
+
 }
 
 .order-item {
@@ -125,18 +127,19 @@ ul {
 
 .order-item-price {
     margin: 0;
+    padding-left: 45px
 }
 
 #total-price-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 14px; 
+    margin-top: 14px;
+    /* margin-left: 40px; */
 }
 
 #confirmation-text-container{
     display: none;
     text-align: center;
-    /* border: 1px solid red; */
     padding: 0 45px;
 }
 

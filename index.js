@@ -69,7 +69,7 @@ let orderList = []
 
 function handleAddOrderedItem(itemId) {
     
-    orderContainerEl.style.display = 'inline'
+    orderContainerEl.style.display = 'block'
     
     menuArray.map((item) => {
         if(itemId == item.id){
@@ -118,8 +118,6 @@ function handlePayment() {
     setTimeout(function(){
         confirmationTextContainerEl.style.display = 'none'
     }, 6000)
-    
-    // console.log(cardCvvEl.value)
     
     orderList = []
     payerNameEl.value = ''
