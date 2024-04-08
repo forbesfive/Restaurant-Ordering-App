@@ -77,12 +77,12 @@ p {
 }
 
 header {
-    height: 167px;
+    min-height: 120px;
     background-image: url("./images/banner.png");
     background-repeat: no-repeat;
     background-size: auto;
     padding: 45px 0 0 45px;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 ul {
@@ -90,7 +90,8 @@ ul {
 }
 
 #item-list {
-    padding: 0 45px;    
+    padding: 0 45px;
+    margin: 0;    
 }
 
 .item {
@@ -99,7 +100,7 @@ ul {
     align-items: center;
     border-bottom: 1px solid #D2D2D2;
     gap: 30px;
-    padding-top: 45px;
+    padding-top: 25px;
 }
 
 .item-text {
