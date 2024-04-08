@@ -79,7 +79,8 @@ p {
 header {
     height: 167px;
     background-image: url("./images/banner.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
     padding: 45px 0 0 45px;
     margin-bottom: 20px;
 }
