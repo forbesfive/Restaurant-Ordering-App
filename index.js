@@ -113,7 +113,7 @@ function handlePayment() {
     
     confirmationTextEl.innerHTML = `Thanks, ${payerNameEl.value}! Your order is on its way!`
     
-    confirmationTextContainerEl.style.display = 'inline'
+    confirmationTextContainerEl.style.display = 'block'
     
     setTimeout(function(){
         confirmationTextContainerEl.style.display = 'none'
